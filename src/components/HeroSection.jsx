@@ -9,15 +9,15 @@ const HeroSection = ({data, filterHandler, loading, error}) => {
       {/* Filtering div  */}
       <div className="flex gap-[22px] text-sm md:text-base">
         <div className="flex gap-[5px] items-center">
-          <input type={"checkbox"} value={"OW"} onChange={filterHandler} />
+          <input type={"checkbox"} value={"OW"} onChange={filterHandler} className="text-[#FF690F]"/>
           <label>Oneworld</label>
         </div>
         <div className="flex gap-[5px] items-center">
-          <input type={"checkbox"} value={"ST"} onChange={filterHandler} />
+          <input type={"checkbox"} value={"ST"} onChange={filterHandler} className="text-[#FF690F]"/>
           <label>Sky Team</label>
         </div>
         <div className="flex gap-[5px] items-center">
-          <input type={"checkbox"} value={"SA"} onChange={filterHandler} />
+          <input type={"checkbox"} value={"SA"} onChange={filterHandler} className="text-[#FF690F]"/>
           <label>Star Allience</label>
         </div>
       </div>
